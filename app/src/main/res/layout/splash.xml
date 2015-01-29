@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashActivity"
+    android:background="#ffffffff">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/canasta"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/aro" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WATCH"
+        android:id="@+id/textview"
+        android:textColor="#ffff0a00"
+        android:textStyle="bold"
+        android:textSize="50dp"
+        android:layout_alignTop="@+id/canasta"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="83dp"
+        android:shadowColor="#fffeff00" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:shadowColor="@color/shadow"
+        android:text="MARKER"
+        android:id="@+id/textView"
+        android:textColor="#ffff0a00"
+        android:textStyle="bold"
+        android:textSize="50dp"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/canasta"
+        android:layout_toStartOf="@+id/canasta"
+        android:layout_marginRight="70dp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/balon"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="false"
+        android:src="@drawable/pelota"
+        android:paddingLeft="-510dp"
+        android:layout_below="@+id/canasta" />
+
+</RelativeLayout>
